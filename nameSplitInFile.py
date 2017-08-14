@@ -7,4 +7,4 @@ with open("data.txt") as f:
         #linedata = line.split(':')
         linedata = line.partition(":")
 
-        print(linedata[0])
+        print(linedata[1])
